@@ -1,15 +1,20 @@
 "use client";
-import * as Sentry from "@sentry/nextjs";
+
 import NextError from "next/error";
 import { useEffect } from "react";
 
 export default function GlobalError({ error }: { error: Error & { digest?: string } }) {
-  useEffect(() => {
-    // Ensure `error` is an instance of Error
+  // Ensure `error` is an instance of Error
+  const handleError = () => {
     if (!(error instanceof Error)) {
-      error = new Error('An unknown error occurred');
+      console.error('An unknown error occurred');
+    } else {
+      console.error(error.message);
     }
-    Sentry.captureException(error);
+  };
+
+  useEffect(() => {
+    handleError();
   }, [error]);
 
   return (
