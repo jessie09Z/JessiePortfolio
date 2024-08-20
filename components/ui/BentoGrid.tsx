@@ -11,7 +11,7 @@ import MagicButton from "./magicButton";
 import { BackgroundGradientAnimation } from "./Background-Gradient-Animation";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
-
+import Image from "next/image";
 
 
 
