@@ -13,17 +13,18 @@ const RecentProjects = () => {
           A selection of Jessie&apos;s{' '}
           <span className='text-purple'>personal projects</span>
         </h1>
+        
       </div>
 
       {/* Projects Section */}
-      <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-16 gap-y-16 mt-10">
         {projects.map((item) => (
           <div
-           className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+           className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]  px-10  mx-10"
             key={item.id}
           >
-            <PinContainer title={item.title} href={item.link}>
-              <div  className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+            <PinContainer title={"GitHub Link"} href={item.gitlink}>
+              <div  className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10 ">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D"  }}
@@ -34,6 +35,11 @@ const RecentProjects = () => {
                   src={item.img}
                   alt='cover'
                  className="z-10 absolute bottom-0"
+                 style={{ 
+                  height: '80%',         
+      width: '80%',          
+      objectFit: 'contain'   
+                  }}
                 />
               </div>
 
@@ -70,10 +76,10 @@ const RecentProjects = () => {
                 </div>
 
                 <div className='flex justify-center items-center'>
-                  <Link href={item.link} passHref>
+                  <a target="_blank" href={item.link} rel="azure webpage">
                     Check Live Site
                     <FaLocationArrow className='ms-3' color='#CBACF9' />
-                  </Link>
+                  </a>
                 </div>
               </div>
             </PinContainer>

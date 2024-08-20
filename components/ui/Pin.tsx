@@ -11,8 +11,8 @@ export const PinContainer = ({
   containerClassName,
 }: {
   children: React.ReactNode;
-  title?: string;
-  href?: string;
+  title: string;
+  href: string;
   className?: string;
   containerClassName?: string;
 }) => {
@@ -61,11 +61,11 @@ export const PinPerspective = ({
   title,
   href,
 }: {
-  title?: string;
-  href?: string;
+  title: string;
+  href: string;
 }) => {
   return (
-    <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+    <motion.div className=" w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className="w-full h-full -mt-7 flex-none inset-0">
         <div className="absolute top-0 inset-x-0 flex justify-center">
           <a

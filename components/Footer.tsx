@@ -10,14 +10,14 @@ const Footer = () => {
   
         <div className="flex flex-col items-center relative">
           <h1 className="heading lg:max-w-[45vw]">
-            Ready to take <span className="text-purple">your</span> digital
-            presence to the next level?
+          Looking for a skilled and dedicated developer to join your team?
           </h1>
           <p className="text-white-200 md:mt-10 my-5 text-center">
-            Reach out to me today and let&apos;s discuss how I can help you
-            achieve your goals.
+          I&apos;m ready to bring my expertise in full-stack development to your next project. Let&apos;s connect and explore how I can contribute to your company's success.
+  
+          
           </p>
-          <a href="mailto:contact@jsmastery.pro">
+          <a target="_blank" href="https://www.linkedin.com/in/jessie-zhang-a724392aa/">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -37,8 +37,9 @@ const Footer = () => {
               <div
                 key={info.id}
                 className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-              >
+              >   <a target="_blank" href={info.link}>
                 <img src={info.img} alt="icons" width={20} height={20} />
+             </a>
               </div>
             ))}
           </div>

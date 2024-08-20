@@ -23,12 +23,13 @@ const Hero =()=>{
     className="text-center text-[40px] md:text-5xl lg:text-6xl"
     words="a full stack developer based in Melbourne"
 >
-    </TextGenerateEffect>
+</TextGenerateEffect>
+
     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl py-4">
     Proficient in full-stack development with Next.js, Node.js, and Tailwind CSS, I drive project success through innovative web design and responsive features. My expertise ensures seamless functionality and high-quality software solutions, enhancing user experiences and streamlining development processes.
     </p>
-    <a href="#about">
-        <MagicButton title="show my work" 
+    <a target="_blank" href="https://www.linkedin.com/in/jessie-zhang-a724392aa/">
+        <MagicButton title="Jessie's Linkedin" 
         icon={<FaLocationArrow/>}
         position="right"/>
     </a>

@@ -15,11 +15,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We&apos;ll collaborate to map out your website&apos;s goals, target audience, 
-          and key functionalities. We&apos;ll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Team Collaboration"
+          icon={<AceternityIcon order="Collaboration" />}
+          des="Successfully collaborated with a cross-functional team to develop and deploy a responsive web application. Played a key role in ensuring seamless communication between front-end and back-end developers, resulting in a project completed ahead of schedule."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,11 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Problem-Solving"
+          icon={<AceternityIcon order="Problem-Solving" />}
+          des=" Identified and resolved critical issues in a production environment, reducing downtime by 30%. Leveraged debugging tools and conducted root cause analysis to improve system stability and performance."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,11 +46,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I&apos;ll translate everything into functional code, building your website
-          from the ground up."
+          title="Continuous Learning & Growth"
+          icon={<AceternityIcon order="Growth" />}
+          des="Actively pursued professional development through online courses and certifications. Recently completed AWS Certified Cloud Practitioner and applied cloud computing principles to optimize project deployments."
         >
           <CanvasRevealEffect
             animationSpeed={3}
