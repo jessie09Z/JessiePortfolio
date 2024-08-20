@@ -17,14 +17,15 @@ const Hero =()=>{
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"/>
     </div>
     <div className="flex justify-center relative my-20 z-10">
-<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ">
-    <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80"> Dynamic web magic with next.js</h2>
+<div className="w-full flex flex-col items-center justify-center ">
+    <h1 className=" heading uppercase tracking-widest text-xs text-center text-blue-100 w-full">  Hi, I&apos;m <span className="text-purple bold">Jessie Zhang</span></h1>
     <TextGenerateEffect
     className="text-center text-[40px] md:text-5xl lg:text-6xl"
-    words="Tranforming concepts into seamless experience">
+    words="a full stack developer based in Melbourne"
+>
     </TextGenerateEffect>
-    <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-        Hi, I&apos;m Jessie, a next.js developer based in Melbourne
+    <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl py-4">
+    Proficient in full-stack development with Next.js, Node.js, and Tailwind CSS, I drive project success through innovative web design and responsive features. My expertise ensures seamless functionality and high-quality software solutions, enhancing user experiences and streamlining development processes.
     </p>
     <a href="#about">
         <MagicButton title="show my work" 

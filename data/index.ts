@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "Proficient in RESTful APIs ",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Expert in Modern Authorization",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -29,7 +29,7 @@ export const navItems = [
     {
       id: 3,
       title: "My tech stack",
-      description: "I constantly try to improve",
+      description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
+      title: "Skilled in CI/CD Processes.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Familiar with Git Versioning",
+      description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Eager to Join Your Team",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -72,35 +72,37 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "Full-Stack Blog Application with React and Node.js",
+      des: " Developed a feature-rich blog platform using React for the front-end and Node.js for the back-end, integrated with PostgreSQL for database management. The application supports user authentication, secure login, and full CRUD operations for blog posts, allowing users to create, update, and manage their content seamlessly. API integration ensures efficient communication between the front and back ends, delivering a smooth user experience.",
+      img: "/test.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://jessieblogs-h5cqa6h3hmgpfhf8.australiaeast-01.azurewebsites.net/#/login",
+      gitlink:"https://github.com/jessie09Z/Jessie-s-Blog-Project"
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
+      title: "Comprehensive E-commerce Platform with ASP.NET Core",
+      des: "Developed a robust e-commerce website using ASP.NET Core (v8) with features such as CRUD operations for products and categories, shopping cart functionality, and order management. Leveraged Razor Pages, N-Tier architecture, and the Repository Pattern for scalable, maintainable code. Integrated .NET Core Identity for user authentication and authorization, and deployed the solution on Microsoft Azure",
+      img: "/bulky.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://bulkyweb20240814122853.azurewebsites.net/",
+      gitlink:"https://github.com/jessie09Z/BulkyWeb_Jessie"
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Jessie's Personal Portfolio",
+      des: "A personal portfolio website built with Next.js and Tailwind CSS, featuring a sleek design and responsive layout. Utilizes Aceternity UI for a modern user interface and TypeScript for type safety and enhanced development efficiency.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/jessie09Z/JessiePortfolio/tree/master",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "Scalable E-Commerce Microservices Application",
+      des: " A comprehensive project in progress aimed at building, deploying, and scaling an E-Commerce application using a microservices architecture. The front-end is developed with React and Next.js, while the back-end services are powered by Node.js and Express, with data stored in MongoDB and Redis. The entire application is containerized with Docker and orchestrated in a Kubernetes cluster. The project leverages TypeScript for type safety across the stack, providing a robust and scalable solution.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "./",
     },
   ];
   
@@ -206,12 +208,9 @@ export const navItems = [
       id: 1,
       img: "/git.svg",
     },
+  
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
     },
   ];
