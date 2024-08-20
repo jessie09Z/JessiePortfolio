@@ -13,7 +13,7 @@ const Footer = () => {
           Looking for a skilled and dedicated developer to join your team?
           </h1>
           <p className="text-white-200 md:mt-10 my-5 text-center">
-          I&apos;m ready to bring my expertise in full-stack development to your next project. Let&apos;s connect and explore how I can contribute to your company's success.
+          I&apos;m ready to bring my expertise in full-stack development to your next project. Let&apos;s connect and explore how I can contribute to your company&apos;s success.
   
           
           </p>
