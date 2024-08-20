@@ -75,7 +75,7 @@ export const navItems = [
       title: "Full-Stack Blog Application with React and Node.js",
       des: " Developed a feature-rich blog platform using React for the front-end and Node.js for the back-end, integrated with PostgreSQL for database management. The application supports user authentication, secure login, and full CRUD operations for blog posts, allowing users to create, update, and manage their content seamlessly. API integration ensures efficient communication between the front and back ends, delivering a smooth user experience.",
       img: "./test.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./fm.svg"],
       link: "https://jessieblogs-h5cqa6h3hmgpfhf8.australiaeast-01.azurewebsites.net/#/login",
       gitlink:"https://github.com/jessie09Z/Jessie-s-Blog-Project"
     },
@@ -84,7 +84,7 @@ export const navItems = [
       title: "Comprehensive E-commerce Platform with ASP.NET Core",
       des: "Developed a robust e-commerce website using ASP.NET Core (v8) with features such as CRUD operations for products and categories, shopping cart functionality, and order management. Leveraged Razor Pages, N-Tier architecture, and the Repository Pattern for scalable, maintainable code. Integrated .NET Core Identity for user authentication and authorization, and deployed the solution on Microsoft Azure",
       img: "./bulky.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./stream.svg", "./c.svg"],
       link: "https://bulkyweb20240814122853.azurewebsites.net/",
       gitlink:"https://github.com/jessie09Z/BulkyWeb_Jessie"
     },
@@ -93,7 +93,7 @@ export const navItems = [
       title: "Jessie's Personal Portfolio",
       des: "A personal portfolio website built with Next.js and Tailwind CSS, featuring a sleek design and responsive layout. Utilizes Aceternity UI for a modern user interface and TypeScript for type safety and enhanced development efficiency.",
       img: "./jessieLinkedin.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
       link: "https://jessie09z.github.io/JessiePortfolio/",
       gitlink:"https://github.com/jessie09Z/Jessie-s-portfolio"
     },
@@ -102,7 +102,7 @@ export const navItems = [
       title: "Scalable E-Commerce Microservices Application",
       des: " A comprehensive project in progress aimed at building, deploying, and scaling an E-Commerce application using a microservices architecture. The front-end is developed with React and Next.js, while the back-end services are powered by Node.js and Express, with data stored in MongoDB and Redis. The entire application is containerized with Docker and orchestrated in a Kubernetes cluster. The project leverages TypeScript for type safety across the stack, providing a robust and scalable solution.",
       img: "./p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "./",
       gitlink:"https://github.com/jessie09Z/Jessie-s-portfolio"
 
